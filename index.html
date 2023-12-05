@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>API Example</title>
+</head>
+<body>
+
+  <h1>Get Advice by ID</h1>
+
+  <label for="adviceId">Enter Advice ID (from 1 to 224):</label>
+  <input type="text" id="adviceId" placeholder="Enter ID">
+  <button onclick="getAdviceById()">Get Advice</button>
+
+  <div id="result"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
